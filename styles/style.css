@@ -283,5 +283,63 @@
 .challenge-button:hover{
   background: #249a5a; 
 }
+.footer{
+  background: #061b33;       
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo img{
+  width: 120px;
+}
+
+.footer-social{
+  text-align: right;
+}
+
+.footer-social-title{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.social-link{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.social-link img{
+  width: 16px;              
+  height: 16px;
+
+  background: white;
+  padding: 8px;            
+  border-radius: 50%;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-link:hover{
+  text-decoration: underline;
+}
+
+.footer-line{
+  border: none;
+  border-top: 1px solid #2a3f55;
+  margin-bottom: 20px;
+}
+
+.footer-text{
+  text-align: center;
+  font-size: 13px;
+  color: #cfd8e3;
+}
 
 
